@@ -10,6 +10,7 @@ import { Devops } from './pages/devops/devops';
 import { Gis } from './pages/gis/gis';
 
 export const routes: Routes = [
+  {path:'',redirectTo:'carosol',pathMatch:'full'},
     {path:'contact',component:Contact},
     {path:'card',component:Card},
     {path:'carosol',component:Carosol},
@@ -20,3 +21,4 @@ export const routes: Routes = [
     {path:'devops',component:Devops},
     {path:'gis',component:Gis}
 ];
+
