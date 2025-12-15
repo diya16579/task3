@@ -1,0 +1,43 @@
+
+html, body
+{
+    height: 100%;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+     margin-top: auto;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    padding: 15px;
+   
+}
+.footer-left a
+{
+    text-align: left;
+    display:block;
+    color: white;
+    margin-bottom: 6px;
+    text-decoration: none;
+}
+.footer-right h4{
+    text-align: right;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+.footer-right p{
+    text-align: right;
+    margin: 3px 0;
+}
+.Footer-wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
